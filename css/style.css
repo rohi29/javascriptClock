@@ -1,0 +1,38 @@
+body {
+    background: rgb(36,155,189);
+background: linear-gradient(37deg, rgba(36,155,189,1) 28%, rgba(214,55,54,1) 55%, rgba(139,53,52,1) 80%);  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  .clock {
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding:50px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #424558;
+  }
+
+  .time {
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .date-time {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .time {
+      font-size: 50px;
+    }
+  }
